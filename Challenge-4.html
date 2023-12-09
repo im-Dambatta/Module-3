@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Challenge-4</title>
+</head>
+<body>
+<div id="list"></div>
+    <!-- Log first item and last item into console. For last item use length property.
+Add an item mercedes-benz to the array  and log it to the console.
+Loop through all items of the array and log them to the console -->
+    <script>
+        var cars = ["toyota", "honda", "mazda", "mitsubishi", "tesla", "lexus"];
+        console.log(cars);
+        console.log(cars[0]);
+        console.log(cars[5]);
+        cars.push("mercedes benz");
+        console.log(cars);
+        document.getElementById("list").innerHTML = cars[6];
+    </script>
+</body>
+</html>

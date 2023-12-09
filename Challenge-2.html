@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Challenge-2</title>
+</head>
+<body>
+
+
+
+  <script>
+// Grade is A if mark is between 70 - 100, 
+// grade is C if mark is between 50 - 60, 
+// grade is F if mark is between 0 - 40
+var grade;
+var calculator = prompt("Enter your score");
+var score = calculator;
+if (score <= 100 && score >= 70){
+grade = "A"
+document.write("<h1>"+ "Your score is " + score + "!" + " And Your grade is " + grade + "</h1>")
+}
+if (score <= 60 && score >= 50){
+grade = "C"
+document.write("<h1>"+ "Your score is " + score + "!" + " And Your grade is " + grade + "</h1>")
+}
+if (score <= 40 && score >= 0){
+    grade = "F"
+    document.write("<h1>"+ "Your score is " + score + "!" + " And Your grade is " + grade + "</h1>")
+}
+  </script>  
+</body>
+</html>

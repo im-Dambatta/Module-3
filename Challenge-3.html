@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Challenge-3</title>
+</head>
+<body id="change">
+    <button onclick="changeBackground()">
+click me
+</button>
+<div id="solve"></div>
+    <script>
+        function changeBackground(){
+        var bgColour = document.getElementById("change");
+        bgColour.style.backgroundColor = "blue";
+
+    }    
+
+    function cal(a, b){
+        return a+b;
+    }
+    
+    document.getElementById("solve").innerHTML = `The sum of 5 and 10 is ${cal(5, 10)}`;
+
+    </script>
+</body>
+</html>
